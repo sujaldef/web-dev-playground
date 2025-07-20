@@ -1,0 +1,137 @@
+.logo {
+}
+
+.header {
+  background-color: #f7eed3;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  gap: 12px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: px;
+  gap: 110px;
+  color: rgb(103, 70, 54);
+}
+
+.list ul li span {
+  padding-right: 0 50px;
+}
+
+ul :hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #fff8e8;
+}
+
+.first {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin: 112px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(103, 70, 54);
+  font-size: 25px;
+
+}
+
+.first img {
+  border: 2px solid rgb(223, 223, 153);
+  border-radius: 50px;
+}
+
+.paramain {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 31px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.paramain p {
+  color: rgb(103, 70, 54);
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  color: rgb(103, 70, 54);
+  border: 2px solid #aab396;
+  background-color: #aab396;
+  margin-left: 45%;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 16px;
+  size: 222px;
+}
+
+.download :hover {
+  cursor: pointer;
+}
+
+.grid button {
+  background-color: #aab396;
+  border: 2px solid #aab396;
+  border-radius: 40px;
+  cursor: pointer;
+  size: 122px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 'Area Area Area';
+    grid-gap: 30px;
+    background-color: #a8826f;
+    padding: 20px;
+    margin: 90px;
+    border: 3px solid #908265 ;
+    border-radius: 20px;
+
+}
+
+.item{ 
+    
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 3px solid #473f2f ;
+    border-radius: 20px;
+
+}
+.footlist{
+   
+    display: inline;
+    
+}
+.footer{
+    display: grid;
+    grid-template-areas: 'Area Area Area';
+    grid-gap: 30px;
+    background-color: #918469;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+    column-gap: 200px;
+    
+}

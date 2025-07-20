@@ -1,0 +1,4 @@
+# to be ignored by git
+*.ipynb_checkpoints
+.env
+.DS_Store

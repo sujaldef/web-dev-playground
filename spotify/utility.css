@@ -1,0 +1,61 @@
+/* classes we can use anywhere  */
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+
+}
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #1f1f1f;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Applies to the whole page */
+* {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #2f2f2f #1e1e1e; /* Scroll thumb and track colors for Firefox */
+}
+
+/* Applies to WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2f2f2f; /* Scroll thumb color */
+    border-radius: 10px; /* Round the thumb */
+    border: 3px solid #1e1e1e; /* Adds padding around the thumb */
+}
+
+/* Optional: Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3c3c3c;
+}
